@@ -1,0 +1,400 @@
+﻿{
+	"destination": "listScreen",
+	"windowTitle": "Liste des clients",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 520,
+	"menuBar": "Main",
+	"markerHeader": 99,
+	"markerBody": 121,
+	"markerBreak": 123,
+	"markerFooter": 175,
+	"events": [
+		"onHeader"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 233,
+					"sizingX": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 68,
+					"left": 296,
+					"width": 487,
+					"height": 2,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 65,
+					"left": 0,
+					"width": 785,
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 278,
+					"left": 896,
+					"width": 1,
+					"height": 1,
+					"fill": "transparent"
+				},
+				"Ligne7": {
+					"type": "line",
+					"top": 96,
+					"left": 1,
+					"width": 784,
+					"sizingX": "grow"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 103,
+					"left": 4,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 103,
+					"left": 290,
+					"width": 91,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 103,
+					"left": 387,
+					"width": 395,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"S1_Texte": {
+					"type": "text",
+					"top": 76,
+					"left": 4,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Company"
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 76,
+					"left": 290,
+					"width": 91,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Zip"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 76,
+					"left": 388,
+					"width": 394,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "City"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 15,
+					"left": 487,
+					"width": 253,
+					"height": 55,
+					"stroke": "#AAAAAA",
+					"fontSize": 48,
+					"text": "Customers"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 12,
+					"left": 485,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Customers"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 0,
+					"left": 1,
+					"width": 295,
+					"height": 71,
+					"pictureFormat": "truncatedTopLeft",
+					"picture": "/RESOURCES/Images/Output_P1_1.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"S2_Champ": {
+					"type": "input",
+					"top": 102,
+					"left": 288,
+					"width": 93,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Customers:1]Zip:4",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 102,
+					"left": 388,
+					"width": 391,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Customers:1]City:5",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 5,
+					"width": 279,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Customers:1]Company:2",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"bPrint1": {
+					"type": "button",
+					"top": 140,
+					"left": 420,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bPrint",
+					"text": "Print",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bPrint1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bAdd": {
+					"type": "button",
+					"top": 140,
+					"left": 20,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bAdd",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add"
+					},
+					"text": "New",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bAdd.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowSubset": {
+					"type": "button",
+					"top": 140,
+					"left": 340,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowSubset",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Selected"
+					},
+					"text": "Subset",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowSubset.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowAll": {
+					"type": "button",
+					"top": 140,
+					"left": 259,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowAll",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/All records"
+					},
+					"text": "All",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowAll.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bOrderBy": {
+					"type": "button",
+					"top": 140,
+					"left": 180,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bOrderBy",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Sort"
+					},
+					"text": "Sort",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bOrderBy.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuery": {
+					"type": "button",
+					"top": 140,
+					"left": 100,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bQuery",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Search"
+					},
+					"text": "Query",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bQuery.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuit": {
+					"type": "button",
+					"top": 140,
+					"left": 695,
+					"width": 70,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "bQuit",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Terminate"
+					},
+					"action": "cancel",
+					"text": "Done",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

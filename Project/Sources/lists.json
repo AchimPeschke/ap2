@@ -1,0 +1,85 @@
+﻿{
+	"Cup size": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Small",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Medium",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Large",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Filter size": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "4",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "6",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "10",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "101",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "102",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "106",
+				"ref": 6,
+				"editable": true
+			}
+		]
+	},
+	"Paper size": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "A3",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "A4",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "A5",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "B5",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	}
+}

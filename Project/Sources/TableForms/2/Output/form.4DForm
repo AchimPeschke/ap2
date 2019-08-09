@@ -1,0 +1,572 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Factures",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 544,
+	"menuBar": "Main",
+	"markerHeader": 99,
+	"markerBody": 121,
+	"markerBreak": 123,
+	"markerFooter": 175,
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 176,
+					"sizingX": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 66,
+					"left": 0,
+					"width": 742,
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 70,
+					"left": 295,
+					"width": 489,
+					"strokeWidth": 2
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 295,
+					"height": 71,
+					"pictureFormat": "truncatedTopLeft",
+					"picture": "/RESOURCES/Images/Input_P1_1.png"
+				},
+				"Ligne8": {
+					"type": "line",
+					"top": 95,
+					"left": 0,
+					"width": 785
+				},
+				"Ligne14": {
+					"type": "line",
+					"top": 121,
+					"left": 0,
+					"width": 785,
+					"stroke": "#AAAAAA"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 15,
+					"left": 487,
+					"width": 253,
+					"height": 55,
+					"stroke": "#AAAAAA",
+					"fontSize": 48,
+					"text": "Invoices"
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 12,
+					"left": 485,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Invoices"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte9": {
+					"type": "text",
+					"top": 103,
+					"left": 353,
+					"width": 106,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte10": {
+					"type": "text",
+					"top": 103,
+					"left": 465,
+					"width": 104,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte11": {
+					"type": "text",
+					"top": 103,
+					"left": 575,
+					"width": 100,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte12": {
+					"type": "text",
+					"top": 103,
+					"left": 681,
+					"width": 101,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte13": {
+					"type": "text",
+					"top": 103,
+					"left": 4,
+					"width": 343,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Séparateur5": {
+					"type": "button",
+					"top": 72,
+					"left": 349,
+					"width": 1,
+					"height": 46,
+					"sizingX": "move",
+					"dataSource": "Séparateur1",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur6": {
+					"type": "button",
+					"top": 72,
+					"left": 461,
+					"width": 1,
+					"height": 46,
+					"dataSource": "Séparateur2",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur7": {
+					"type": "button",
+					"top": 72,
+					"left": 571,
+					"width": 1,
+					"height": 46,
+					"dataSource": "Séparateur3",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur8": {
+					"type": "button",
+					"top": 72,
+					"left": 677,
+					"width": 1,
+					"height": 46,
+					"dataSource": "Séparateur4",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur1_Ligne1": {
+					"type": "line",
+					"top": 100,
+					"left": 349,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur2_Ligne1": {
+					"type": "line",
+					"top": 100,
+					"left": 461,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur3_Ligne1": {
+					"type": "line",
+					"top": 100,
+					"left": 571,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur4_Ligne1": {
+					"type": "line",
+					"top": 100,
+					"left": 677,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"S2_Texte1": {
+					"type": "text",
+					"top": 76,
+					"left": 353,
+					"width": 106,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Reference"
+				},
+				"S3_Texte1": {
+					"type": "text",
+					"top": 76,
+					"left": 465,
+					"width": 104,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Date"
+				},
+				"S4_Texte1": {
+					"type": "text",
+					"top": 76,
+					"left": 575,
+					"width": 100,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Total amount"
+				},
+				"S5_Texte1": {
+					"type": "text",
+					"top": 76,
+					"left": 681,
+					"width": 100,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Total VAT"
+				},
+				"S2_Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 353,
+					"width": 96,
+					"height": 16,
+					"dataSource": "[Invoices:2]ID_Invoice:1",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 465,
+					"width": 94,
+					"height": 16,
+					"dataSource": "[Invoices:2]Invoice date:3",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 575,
+					"width": 90,
+					"height": 16,
+					"dataSource": "[Invoices:2]price:4",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "### ##0,00 €",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 680,
+					"width": 93,
+					"height": 16,
+					"dataSource": "[Invoices:2]VAT total:5",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ##0,00 €",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte14": {
+					"type": "text",
+					"top": 76,
+					"left": 4,
+					"width": 343,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Company"
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 102,
+					"left": 4,
+					"width": 332,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Customers:1]Company:2",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"bPrint1": {
+					"type": "button",
+					"top": 140,
+					"left": 420,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bPrint",
+					"text": "Print",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bPrint1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bAdd": {
+					"type": "button",
+					"top": 140,
+					"left": 20,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bAdd",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add"
+					},
+					"text": "New",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bAdd.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowSubset": {
+					"type": "button",
+					"top": 140,
+					"left": 340,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowSubset",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Selected"
+					},
+					"text": "Subset",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowSubset.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowAll": {
+					"type": "button",
+					"top": 140,
+					"left": 260,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowAll",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/All records"
+					},
+					"text": "All",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowAll.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bOrderBy": {
+					"type": "button",
+					"top": 140,
+					"left": 180,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bOrderBy",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Sort"
+					},
+					"text": "Sort",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bOrderBy.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuery": {
+					"type": "button",
+					"top": 140,
+					"left": 100,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bQuery",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Search"
+					},
+					"text": "Query",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bQuery.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuit": {
+					"type": "button",
+					"top": 140,
+					"left": 695,
+					"width": 70,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "bQuit",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Terminate"
+					},
+					"action": "cancel",
+					"text": "Done",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

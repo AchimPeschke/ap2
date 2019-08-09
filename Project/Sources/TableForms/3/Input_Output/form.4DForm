@@ -1,0 +1,262 @@
+﻿{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 25,
+	"markerBody": 51,
+	"markerBreak": 54,
+	"markerFooter": 57,
+	"events": [
+		"onLoad",
+		"onDataChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": -10,
+					"width": 560,
+					"height": 68,
+					"sizingX": "grow",
+					"fill": "automatic",
+					"stroke": "#DDDDDD"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 29,
+					"left": 4,
+					"width": 90,
+					"height": 20,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 29,
+					"left": 99,
+					"width": 195,
+					"height": 20,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 29,
+					"left": 299,
+					"width": 78,
+					"height": 20,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 29,
+					"left": 382,
+					"width": 77,
+					"height": 20,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 29,
+					"left": 464,
+					"width": 80,
+					"height": 20,
+					"sizingX": "grow",
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"S1_Texte": {
+					"type": "text",
+					"top": 4,
+					"left": 4,
+					"width": 89,
+					"height": 16,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Reference"
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 4,
+					"left": 98,
+					"width": 195,
+					"height": 16,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Name"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 4,
+					"left": 299,
+					"width": 78,
+					"height": 16,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Quantity "
+				},
+				"S4_Texte": {
+					"type": "text",
+					"top": 4,
+					"left": 382,
+					"width": 77,
+					"height": 16,
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Price"
+				},
+				"S1_Champ": {
+					"type": "input",
+					"top": 30,
+					"left": 4,
+					"width": 89,
+					"height": 16,
+					"dataSource": "[Lines:3]ToID_Product:2",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"S2_Champ": {
+					"type": "input",
+					"top": 30,
+					"left": 99,
+					"width": 195,
+					"height": 16,
+					"dataSource": "[Products:4]Name:2",
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 30,
+					"left": 299,
+					"width": 76,
+					"height": 16,
+					"dataSource": "[Lines:3]Quantity:3",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Unite"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"S4_Champ": {
+					"type": "input",
+					"top": 30,
+					"left": 381,
+					"width": 77,
+					"height": 16,
+					"dataSource": "[Products:4]Price:3",
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ##0,00 €",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 4,
+					"left": 464,
+					"width": 80,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#0069FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Total"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 24,
+					"left": -3,
+					"width": 550,
+					"height": 2,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 30,
+					"left": 465,
+					"width": 77,
+					"height": 16,
+					"dataSource": "[Lines:3]Total:4",
+					"stroke": "#0069FF",
+					"textAlign": "left",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	]
+}

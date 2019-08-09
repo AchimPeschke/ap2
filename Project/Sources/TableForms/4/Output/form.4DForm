@@ -1,0 +1,382 @@
+﻿{
+	"destination": "listScreen",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 520,
+	"menuBar": "Main",
+	"markerHeader": 99,
+	"markerBody": 121,
+	"markerBreak": 123,
+	"markerFooter": 175,
+	"events": [
+		"onHeader"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 176,
+					"sizingX": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 66,
+					"left": 0,
+					"width": 785,
+					"sizingX": "grow",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 68,
+					"left": 394,
+					"width": 391,
+					"height": 2,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Ligne6": {
+					"type": "line",
+					"top": 96,
+					"left": 0,
+					"width": 785,
+					"sizingX": "grow"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 102,
+					"left": 4,
+					"width": 101,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 102,
+					"left": 111,
+					"width": 563,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 102,
+					"left": 680,
+					"width": 101,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised"
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 76,
+					"left": 111,
+					"width": 563,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Name"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 76,
+					"left": 680,
+					"width": 101,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Price"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 76,
+					"left": 4,
+					"width": 101,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Reference"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 15,
+					"left": 497,
+					"width": 253,
+					"height": 55,
+					"stroke": "#AAAAAA",
+					"fontSize": 48,
+					"text": "Products"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 12,
+					"left": 495,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Products"
+				}
+			}
+		},
+		{
+			"objects": {
+				"S1_Champ": {
+					"type": "input",
+					"top": 101,
+					"left": 5,
+					"width": 102,
+					"height": 16,
+					"dataSource": "[Products:4]ID_Product:1",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Champ": {
+					"type": "input",
+					"top": 101,
+					"left": 112,
+					"width": 549,
+					"height": 16,
+					"dataSource": "[Products:4]Name:2",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 101,
+					"left": 682,
+					"width": 97,
+					"height": 16,
+					"dataSource": "[Products:4]Price:3",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"bPrint1": {
+					"type": "button",
+					"top": 140,
+					"left": 420,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bPrint",
+					"text": "Print",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bPrint1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bAdd": {
+					"type": "button",
+					"top": 140,
+					"left": 20,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bAdd",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add"
+					},
+					"text": "New",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bAdd.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowSubset": {
+					"type": "button",
+					"top": 140,
+					"left": 340,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowSubset",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Selected"
+					},
+					"text": "Subset",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowSubset.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bShowAll": {
+					"type": "button",
+					"top": 140,
+					"left": 260,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bShowAll",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/All records"
+					},
+					"text": "All",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bShowAll.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bOrderBy": {
+					"type": "button",
+					"top": 140,
+					"left": 180,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bOrderBy",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Sort"
+					},
+					"text": "Sort",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bOrderBy.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuery": {
+					"type": "button",
+					"top": 140,
+					"left": 100,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bQuery",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Search"
+					},
+					"text": "Query",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bQuery.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bQuit": {
+					"type": "button",
+					"top": 140,
+					"left": 695,
+					"width": 70,
+					"height": 20,
+					"dataSource": "bQuit",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Terminate"
+					},
+					"action": "cancel",
+					"text": "Done",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

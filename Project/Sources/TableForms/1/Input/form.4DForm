@@ -1,0 +1,493 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Cllient",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 520,
+	"menuBar": "Main",
+	"markerBody": 261,
+	"markerBreak": 261,
+	"markerFooter": 271,
+	"events": [
+		"onLoad"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 505,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 10,
+					"width": 765,
+					"height": 40,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"fill": "#EEEEEE",
+					"stroke": "#EEEEEE"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 72,
+					"left": 298,
+					"width": 487,
+					"height": 2,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 70,
+					"left": 30,
+					"width": 755,
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 295,
+					"height": 417,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Output_P1_1.png"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 120,
+					"left": 110,
+					"width": 660,
+					"height": 330,
+					"sizingX": "grow",
+					"fill": "#EEEEEE",
+					"stroke": "#EEEEEE",
+					"strokeWidth": 2
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte21": {
+					"type": "text",
+					"top": 186,
+					"left": 145,
+					"width": 138,
+					"height": 16,
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Company................"
+				},
+				"Texte22": {
+					"type": "text",
+					"top": 220,
+					"left": 145,
+					"width": 138,
+					"height": 16,
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Address..............."
+				},
+				"Texte23": {
+					"type": "text",
+					"top": 287,
+					"left": 145,
+					"width": 138,
+					"height": 16,
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Zip.................................."
+				},
+				"Texte24": {
+					"type": "text",
+					"top": 322,
+					"left": 145,
+					"width": 138,
+					"height": 16,
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "City....................."
+				},
+				"Société": {
+					"type": "input",
+					"top": 186,
+					"left": 286,
+					"width": 350,
+					"height": 16,
+					"dataSource": "[Customers:1]Company:2",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Adresse": {
+					"type": "input",
+					"top": 220,
+					"left": 286,
+					"width": 350,
+					"height": 48,
+					"dataSource": "[Customers:1]Address:3",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 287,
+					"left": 286,
+					"width": 55,
+					"height": 16,
+					"dataSource": "[Customers:1]Zip:4",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Ville": {
+					"type": "input",
+					"top": 322,
+					"left": 286,
+					"width": 350,
+					"height": 16,
+					"dataSource": "[Customers:1]City:5",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Champ2": {
+					"type": "input",
+					"top": 356,
+					"left": 286,
+					"width": 350,
+					"height": 16,
+					"dataSource": "[Customers:1]Country:6",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 356,
+					"left": 145,
+					"width": 138,
+					"height": 16,
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Country...................."
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 15,
+					"left": 487,
+					"width": 253,
+					"height": 55,
+					"stroke": "#AAAAAA",
+					"fontSize": 48,
+					"text": "Customers"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 12,
+					"left": 485,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Customers"
+				},
+				"Champ3": {
+					"type": "input",
+					"top": 286,
+					"left": 405,
+					"width": 55,
+					"height": 16,
+					"dataSource": "[Customers:1]ID_Customer:1",
+					"stroke": "#5200FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"bLast": {
+					"type": "button",
+					"top": 470,
+					"left": 260,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bLast",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/last"
+					},
+					"action": "lastRecord",
+					"text": "Last",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bFirst": {
+					"type": "button",
+					"top": 470,
+					"left": 20,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bFirst",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First"
+					},
+					"action": "firstRecord",
+					"text": "First",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "button",
+					"top": 470,
+					"left": 100,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bPrevious",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous"
+					},
+					"action": "previousRecord",
+					"text": "Prev.",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "button",
+					"top": 470,
+					"left": 180,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bNext",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next"
+					},
+					"action": "nextRecord",
+					"text": "Next",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 470,
+					"left": 695,
+					"width": 70,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"text": "OK",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 470,
+					"left": 340,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bDelete",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete record"
+					},
+					"text": "Delete",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bDelete.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 470,
+					"left": 615,
+					"width": 70,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"text": "Cancel",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 74,
+					"left": 629,
+					"width": 100,
+					"height": 12,
+					"sizingX": "move",
+					"dataSource": "vRecNum",
+					"stroke": "#5200FF",
+					"textAlign": "right",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onLoad",
+						"onHeader"
+					]
+				}
+			}
+		}
+	]
+}

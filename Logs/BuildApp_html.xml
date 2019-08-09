@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="LogStyleSheet.xsl"?>
+<verifylog operation="Build" name="1-Bin_to_Project_ori_users copy 2" structure="Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2:Project:1-Bin_to_Project_ori_users copy 2.4DProject" data="" os="macOS Version 10.14.6 (Build 18G87)">
+<start_timer time="2019-08-09T10:57:33+02:00"/>
+<stop_timer time="2019-08-09T10:57:35+02:00" success="true" user_canceled="false"/>
+<step title="Building compiled database">
+<step title="Start compilation [2019-08-09T10:57:33]"></step>
+<step title="Start copying files : Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:1-Bin_to_Project_ori_users copy 2.4DZ"></step>
+<step title="End copying files : Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:1-Bin_to_Project_ori_users copy 2.4DZ"></step>
+<step title="Plug-in copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Plugins:4D InternetCommands.bundle: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Plugins:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2:Components:PICT_Convert.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Components:4D SVG.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Components:4D Progress.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Components:4D ViewPro.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Components:4D WritePro Interface.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="Component copying from Macintosh HD:Users:joachim:Desktop:4D v17 R6 240296.app:Contents:Components:4D Widgets.4dbase: to Macintosh HD:Users:joachim:Desktop:1-Bin_to_Project_ori_users copy 2_Build:Compiled Database:1-Bin_to_Project_ori_users copy 2:Components:."></step>
+<step title="End compilation [2019-08-09T10:57:35]"></step>
+</step>
+</verifylog>

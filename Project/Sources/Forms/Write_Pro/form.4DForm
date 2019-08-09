@@ -1,0 +1,162 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Main",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"w": {
+					"type": "write",
+					"top": 10,
+					"left": 11,
+					"width": 986,
+					"height": 306,
+					"sizingY": "grow",
+					"dataSource": "w",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded"
+				},
+				"Button9": {
+					"type": "button",
+					"top": 10,
+					"left": 1022,
+					"width": 163,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "Button9",
+					"text": "Load HTML Template",
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 46,
+					"left": 1022,
+					"width": 163,
+					"height": 26,
+					"dataSource": "Button11",
+					"text": "References/values",
+					"focusable": false,
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 83,
+					"left": 1022,
+					"width": 163,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "Button2",
+					"text": "Process 4D Tags",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button14": {
+					"type": "button",
+					"top": 237,
+					"left": 1022,
+					"width": 163,
+					"height": 26,
+					"sizingX": "move",
+					"dataSource": "Button14",
+					"text": "Send",
+					"method": "ObjectMethods/Button14.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 274,
+					"left": 1022,
+					"width": 163,
+					"height": 26,
+					"dataSource": "Button",
+					"action": "cancel",
+					"text": "Cancel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 323,
+					"left": 5,
+					"width": 1001,
+					"height": 1,
+					"dataSource": "Splitter",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 333,
+					"left": 11,
+					"width": 987,
+					"height": 368,
+					"sizingY": "grow",
+					"dataSource": "vSource",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 338,
+					"left": 1037,
+					"width": 128,
+					"height": 128,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.tif"
+				}
+			}
+		}
+	]
+}

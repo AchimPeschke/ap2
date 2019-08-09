@@ -1,0 +1,444 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 520,
+	"menuBar": "Main",
+	"markerBody": 125,
+	"markerBreak": 125,
+	"markerFooter": 135,
+	"events": [
+		"onLoad",
+		"onDataChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 505,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 295,
+					"height": 417,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Input_P1_1.png"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 118,
+					"left": 112,
+					"width": 619,
+					"height": 334,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#EEEEEE",
+					"stroke": "#EEEEEE",
+					"strokeWidth": 2
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 66,
+					"left": 0,
+					"width": 740,
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 68,
+					"left": 0,
+					"width": 785,
+					"height": 2,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 74,
+					"left": 629,
+					"width": 100,
+					"height": 12,
+					"sizingX": "move",
+					"dataSource": "vRecNum",
+					"stroke": "#0056FF",
+					"textAlign": "right",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onLoad",
+						"onHeader"
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 15,
+					"left": 487,
+					"width": 253,
+					"height": 55,
+					"stroke": "#AAAAAA",
+					"fontSize": 48,
+					"text": "Invoices"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 12,
+					"left": 485,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Invoices"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Sous-formulaire1": {
+					"type": "subform",
+					"top": 172,
+					"left": 114,
+					"width": 597,
+					"height": 217,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"table": 3,
+					"listForm": "Lignes facture",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				},
+				"Texte17": {
+					"type": "text",
+					"top": 131,
+					"left": 146,
+					"width": 109,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Reference......"
+				},
+				"Texte18": {
+					"type": "text",
+					"top": 131,
+					"left": 582,
+					"width": 62,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Date......."
+				},
+				"ID_Facture": {
+					"type": "input",
+					"top": 131,
+					"left": 260,
+					"width": 88,
+					"height": 16,
+					"dataSource": "[Invoices:2]ID_Invoice:1",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Date_Facture": {
+					"type": "input",
+					"top": 131,
+					"left": 648,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[Invoices:2]Invoice date:3",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 94,
+					"left": 353,
+					"width": 138,
+					"height": 16,
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Company................"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 404,
+					"left": 515,
+					"width": 100,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "[Invoices:2]price:4",
+					"stroke": "#0056FF",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "#EEEEEE",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 404,
+					"left": 401,
+					"width": 111,
+					"height": 16,
+					"sizingY": "move",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Total amount................"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 427,
+					"left": 402,
+					"width": 111,
+					"height": 16,
+					"sizingY": "move",
+					"stroke": "#0056FF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "To pay............"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 94,
+					"left": 494,
+					"width": 237,
+					"height": 16,
+					"dataSource": "[Invoices:2]To_Company:2",
+					"stroke": "#0056FF",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"TotalNet": {
+					"type": "input",
+					"top": 427,
+					"left": 515,
+					"width": 100,
+					"height": 16,
+					"sizingY": "move",
+					"dataSource": "<>Total",
+					"dataSourceTypeHint": "number",
+					"stroke": "#0056FF",
+					"fontSize": 13,
+					"fill": "#EEEEEE",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Image2": {
+					"type": "picture",
+					"top": 155,
+					"left": 130,
+					"width": 10,
+					"height": 9,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Add.png"
+				},
+				"Image4": {
+					"type": "picture",
+					"top": 157,
+					"left": 169,
+					"width": 12,
+					"height": 5,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Delette.png"
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 153,
+					"left": 160,
+					"width": 31,
+					"height": 13,
+					"dataSource": "btDeletteLines",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete sub reco"
+					},
+					"action": "deleteSubrecord",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton 3D8": {
+					"type": "button",
+					"top": 153,
+					"left": 120,
+					"width": 31,
+					"height": 13,
+					"dataSource": "btAddLines",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add sub record"
+					},
+					"action": "addSubrecord",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 470,
+					"left": 695,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"text": "OK",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 470,
+					"left": 616,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"text": "Cancel",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrint": {
+					"type": "button",
+					"top": 470,
+					"left": 114,
+					"width": 80,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bPrint",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/last"
+					},
+					"text": "Print",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bPrint.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrint1": {
+					"type": "button",
+					"top": 470,
+					"left": 214,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bPrint",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/last"
+					},
+					"text": "Display HTML",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"method": "ObjectMethods/bPrint1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

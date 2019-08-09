@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Compact" name="PICT_Convert" structure="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:PICT_Convert.4DB" data="" os="Mac OS X (10.10.5)">
+<start_timer time="2017-02-19T18:19:46+01:00"/>
+<step title="Opening the database in maintenance mode">
+</step>
+<step title="Compact">
+	<step title="Compacting auto sequence number definitions">
+	</step>
+	<step title="Loading data tables">
+		<step title="Compacting data table headers">
+		</step>
+	</step>
+	<step title="Compacting BLOBs in table Resources">
+	</step>
+	<step title="Compacting records in table Resources">
+		<step title="Checking list of deleted records in table Resources">
+		</step>
+	</step>
+	<step title="Compacting BLOBs in table [Table#0]">
+	</step>
+	<step title="Compacting records in table [Table#0]">
+		<step title="Checking list of deleted records in table [Table#0]">
+		</step>
+	</step>
+	<step title="Compacting index definitions">
+		<step title="Compacting index B-tree Index 0 on kind (TYPE only)">
+			<step title="Compacting index page addresses on B-tree Index 0 on kind (TYPE only)">
+			</step>
+			<step title="Compacting list of deleted index pages on B-tree Index 0 on kind (TYPE only)">
+			</step>
+			<step title="Compacting index pages on B-tree Index 0 on kind (TYPE only)">
+			</step>
+		</step>
+		<step title="Compacting index B-tree Index 1 on stamp (stamp)">
+			<step title="Compacting index page addresses on B-tree Index 1 on stamp (stamp)">
+			</step>
+			<step title="Compacting list of deleted index pages on B-tree Index 1 on stamp (stamp)">
+			</step>
+			<step title="Compacting index pages on B-tree Index 1 on stamp (stamp)">
+			</step>
+		</step>
+		<step title="Compacting index B-tree Index 2 on kind , id (TYPE and ID)">
+			<step title="Compacting index page addresses on B-tree Index 2 on kind , id (TYPE and ID)">
+			</step>
+			<step title="Compacting list of deleted index pages on B-tree Index 2 on kind , id (TYPE and ID)">
+			</step>
+			<step title="Compacting index pages on B-tree Index 2 on kind , id (TYPE and ID)">
+			</step>
+		</step>
+	</step>
+	<step title="Compacting data table definitions">
+	</step>
+	<step title="Compacting backup index definitions">
+	</step>
+	<step title="Move original">
+<move from="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:PICT_Convert.4DB" to="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:Replaced Files (Compacting) 2017-02-19 18-19-46:PICT_Convert.4DB">
+</move>	</step>
+	<step title="Move the new file to the original location">
+<move from="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:Replaced Files (Compacting) 2017-02-19 18-19-46:_PICT_Convert_compacted.4DB" to="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:PICT_Convert.4DB">
+</move>	</step>
+	<step title="Move original index">
+<move from="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:PICT_Convert.4DIndy" to="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:Replaced Files (Compacting) 2017-02-19 18-19-46:PICT_Convert.4DIndy">
+</move>	</step>
+	<step title="Move the new index file to the original location">
+<move from="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:Replaced Files (Compacting) 2017-02-19 18-19-46:_PICT_Convert_compacted.4DIndy" to="Zaiats:Users:JPR:Desktop:V14-&gt;15Repaired:4D_More Objects_Original copy:Components:PICT_Convert.4dbase:PICT_Convert.4DIndy">
+</move>	</step>
+</step>
+<stop_timer time="2017-02-19T18:19:47+01:00" success="true" user_canceled="false"/>
+</verifylog>

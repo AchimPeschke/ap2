@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="28">
+	<com.4d>
+		<database>
+			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
+			<misc automatic_transactions="false"/>
+			<data_storage allow_data_read_only="true"/>
+		</database>
+		<interface>
+			<misc/>
+			<user can_change_password="false" display_toolbar="true" formula_editor_with_full_lists="true" print_progress="false"/>
+			<shortcuts>
+				<add_subform command="false" key_code="3" shift="false"/>
+				<cancel_input_form alt="true" key_code="27"/>
+				<accept_input_form alt="true" key_code="3"/>
+			</shortcuts>
+			<developper display_toolbar="true"/>
+		</interface>
+		<general startup_environnement="1">
+			<mover always_display_dialog="2"/>
+		</general>
+		<server>
+			<misc/>
+			<network>
+				<client_server auto_register_clients="true"/>
+				<options use_legacy_network_layer="false"/>
+			</network>
+			<ip_config>
+				<allow_deny_table>
+					<allow_deny address="*" allow="true"/>
+					<allow_deny address="*" allow="true"/>
+				</allow_deny_table>
+			</ip_config>
+		</server>
+		<compiler>
+			<typage default_for_button="2" default_for_numeric="1"/>
+		</compiler>
+		<web>
+			<standalone_server>
+				<misc use_4dvar_comments="true"/>
+				<options>
+					<web_processes max_concurrent="32000" timeout_for_inactives="5"/>
+					<text_conversion standard_set="ISO-8859-1"/>
+					<cache cache_max_size="0"/>
+					<web_passwords generic_web_user="0"/>
+					<filters allow_4dsync_urls="true"/>
+				</options>
+				<configuration automatic_session_management="false" port_number="8050">
+					<hosts>
+						<host home_page="index.html" html_root="./WebFolder/" id="0" name="default"/>
+					</hosts>
+				</configuration>
+				<webservices>
+					<server allow_requests="false"/>
+				</webservices>
+				<rest launch_at_startup="true"/>
+			</standalone_server>
+			<remote>
+				<misc/>
+				<configuration allow_ssl="false" automatic_session_management="false"/>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<filters allow_4dsync_urls="true"/>
+				</options>
+			</remote>
+		</web>
+		<deployment>
+			<options/>
+		</deployment>
+	</com.4d>
+</preferences>

@@ -1,0 +1,170 @@
+﻿{
+	"Sources/Methods/DisplayCustomers.4dm": {
+		"left": 571,
+		"top": 341,
+		"width": 778,
+		"height": 413
+	},
+	"Sources/Methods/DisplayInvoices.4dm": {
+		"left": 571,
+		"top": 391,
+		"width": 778,
+		"height": 363
+	},
+	"Sources/Methods/DisplayProducts.4dm": {
+		"left": 571,
+		"top": 391,
+		"width": 778,
+		"height": 363
+	},
+	"Sources/Methods/TotalInvoice.4dm": {
+		"left": 366,
+		"top": 102,
+		"width": 1352,
+		"height": 620
+	},
+	"Sources/Methods/Initialisation.4dm": {
+		"left": 50,
+		"top": 135,
+		"width": 1218,
+		"height": 1056
+	},
+	"Sources/Methods/Update_Key.4dm": {
+		"left": 485,
+		"top": 270,
+		"width": 828,
+		"height": 350
+	},
+	"Sources/Methods/WAK_Get_Invoices.4dm": {
+		"left": 485,
+		"top": 270,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/Methods/Return_address.4dm": {
+		"left": 371,
+		"top": 206,
+		"width": 1072,
+		"height": 454
+	},
+	"Sources/Methods/ProcessImagePaths.4dm": {
+		"left": 133,
+		"top": 102,
+		"width": 1378,
+		"height": 731
+	},
+	"Sources/Methods/Start_Slides.4dm": {
+		"left": 485,
+		"top": 270,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/Methods/AP_Show_Products.4dm": {
+		"left": 489,
+		"top": 103,
+		"width": 865,
+		"height": 350
+	},
+	"Sources/Methods/Build_Cell_Content.4dm": {
+		"left": 752,
+		"top": 254,
+		"width": 863,
+		"height": 657
+	},
+	"Sources/Methods/Build_Button.4dm": {
+		"left": 714,
+		"top": 360,
+		"width": 1034,
+		"height": 358
+	},
+	"Sources/Methods/__HTP_HOST_Do_Action.4dm": {
+		"left": 318,
+		"top": 344,
+		"width": 1055,
+		"height": 366
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 714,
+		"top": 360,
+		"width": 1034,
+		"height": 358
+	},
+	"Sources/Forms/Write_Pro/method.4dm": {
+		"left": 714,
+		"top": 360,
+		"width": 1072,
+		"height": 488
+	},
+	"Sources/Forms/Write_Pro/ObjectMethods/Button9.4dm": {
+		"left": 318,
+		"top": 344,
+		"width": 1151,
+		"height": 368
+	},
+	"Sources/Forms/Write_Pro/ObjectMethods/Button11.4dm": {
+		"left": 714,
+		"top": 360,
+		"width": 1072,
+		"height": 488
+	},
+	"Sources/Forms/Write_Pro/ObjectMethods/Button2.4dm": {
+		"left": 318,
+		"top": 344,
+		"width": 770,
+		"height": 350
+	},
+	"Sources/Forms/Write_Pro/ObjectMethods/Button14.4dm": {
+		"left": 251,
+		"top": 223,
+		"width": 1140,
+		"height": 521
+	},
+	"Sources/Forms/Products_Display/ObjectMethods/List Box.4dm": {
+		"left": 597,
+		"top": 129,
+		"width": 1653,
+		"height": 952
+	},
+	"Sources/Forms/Products_Display/ObjectMethods/LB.4dm": {
+		"left": 521,
+		"top": 194,
+		"width": 979,
+		"height": 555
+	},
+	"Sources/Forms/Products_Display/ObjectMethods/Spalte5.4dm": {
+		"left": 794,
+		"top": 228,
+		"width": 1172,
+		"height": 482
+	},
+	"Sources/TableForms/2/Input/method.4dm": {
+		"left": 372,
+		"top": 351,
+		"width": 770,
+		"height": 350
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/bPrint.4dm": {
+		"left": 711,
+		"top": 103,
+		"width": 737,
+		"height": 797
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/bPrint1.4dm": {
+		"left": 485,
+		"top": 270,
+		"width": 777,
+		"height": 488
+	},
+	"Sources/TableForms/4/Input/method.4dm": {
+		"left": 707,
+		"top": 417,
+		"width": 1034,
+		"height": 701
+	},
+	"Sources/TableForms/5/Input/ObjectMethods/Button.4dm": {
+		"left": 714,
+		"top": 360,
+		"width": 1072,
+		"height": 488
+	}
+}

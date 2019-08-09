@@ -1,0 +1,107 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Viereck": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 1278,
+					"height": 495,
+					"stroke": "transparent"
+				},
+				"Text": {
+					"type": "text",
+					"top": 39,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- Neue Textverarbeitung"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 115,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- 4D Ausdrücke "
+				},
+				"Text2": {
+					"type": "text",
+					"top": 191,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- Natives 4D Formular-Objekt"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 267,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- Programmierbar"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 343,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- Kompatibilität für 4D Write Dokumente"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 416,
+					"left": 67,
+					"width": 1196,
+					"height": 58,
+					"fontFamily": "Arial",
+					"fontSize": 50,
+					"text": "- Schicken Sie uns Ihre Dokumente"
+				}
+			}
+		}
+	]
+}

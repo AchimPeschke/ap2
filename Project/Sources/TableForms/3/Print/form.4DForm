@@ -1,0 +1,249 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 31,
+	"markerBody": 53,
+	"markerBreak": 70,
+	"markerFooter": 75,
+	"events": [
+		"onPrintingFooter",
+		"onPrintingDetail"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 30,
+					"left": 2,
+					"width": 536,
+					"height": 38,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"Champ2": {
+					"type": "input",
+					"top": 34,
+					"left": 9,
+					"width": 69,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Lines:3]ToID_Product:2",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ3": {
+					"type": "input",
+					"top": 34,
+					"left": 83,
+					"width": 165,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Products:4]Name:2",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Champ4": {
+					"type": "input",
+					"top": 34,
+					"left": 255,
+					"width": 68,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Lines:3]Quantity:3",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": {
+						"$ref": "/SOURCES/filters.json#/Unite"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Champ5": {
+					"type": "input",
+					"top": 34,
+					"left": 327,
+					"width": 77,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Products:4]Price:3",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ##0,00 €",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 34,
+					"left": 410,
+					"width": 123,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Lines:3]Total:4",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 32,
+					"left": 80,
+					"width": 1,
+					"height": 35
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 32,
+					"left": 250,
+					"width": 1,
+					"height": 35
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 32,
+					"left": 325,
+					"width": 1,
+					"height": 35
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 33,
+					"left": 406,
+					"width": 1,
+					"height": 35
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 3,
+					"width": 534,
+					"height": 29,
+					"fill": "transparent"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 8,
+					"left": 11,
+					"width": 69,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Ref"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 8,
+					"left": 85,
+					"width": 165,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Name"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 8,
+					"left": 256,
+					"width": 68,
+					"height": 16,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Quantity"
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 8,
+					"left": 329,
+					"width": 77,
+					"height": 16,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Price"
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 8,
+					"left": 411,
+					"width": 121,
+					"height": 16,
+					"sizingX": "move",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"borderStyle": "raised",
+					"text": "Total"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 27,
+					"left": 8,
+					"width": 527,
+					"height": 2,
+					"strokeWidth": 2
+				}
+			}
+		}
+	]
+}

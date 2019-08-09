@@ -1,0 +1,79 @@
+﻿{
+	"methods": {
+		"TotalLine": {
+			"timeStamp": "2019-08-08T12:49:05.363Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		},
+		"Initialisation": {
+			"timeStamp": "2019-08-08T12:49:05.364Z"
+		},
+		"Return_address": {
+			"timeStamp": "2019-08-08T12:49:05.366Z"
+		},
+		"__HTP_HOST_Do_Action": {
+			"timeStamp": "2019-08-08T12:49:05.370Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"WAK_Get_Invoices": {
+			"timeStamp": "2019-08-08T12:49:05.365Z",
+			"attributes": {
+				"published4DMobile": {
+					"scope": "table",
+					"table": "Customers"
+				}
+			}
+		},
+		"Build_Cell_Content": {
+			"timeStamp": "2019-08-08T12:49:05.368Z"
+		},
+		"AP_Show_Products": {
+			"timeStamp": "2019-08-08T12:49:05.368Z"
+		},
+		"TotalInvoice": {
+			"timeStamp": "2019-08-08T12:49:05.362Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		},
+		"Build_Button": {
+			"timeStamp": "2019-08-08T12:49:05.369Z"
+		},
+		"DisplayCustomers": {
+			"timeStamp": "2019-08-08T12:49:05.358Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		},
+		"ProcessImagePaths": {
+			"timeStamp": "2019-08-08T12:49:05.367Z"
+		},
+		"Start_Slides": {
+			"timeStamp": "2019-08-08T12:49:05.367Z"
+		},
+		"Compiler": {
+			"timeStamp": "2019-08-08T12:49:05.361Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		},
+		"Update_Key": {
+			"timeStamp": "2019-08-08T12:49:05.364Z"
+		},
+		"DisplayInvoices": {
+			"timeStamp": "2019-08-08T12:49:05.359Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		},
+		"DisplayProducts": {
+			"timeStamp": "2019-08-08T12:49:05.360Z",
+			"attributes": {
+				"publishedWeb": true
+			}
+		}
+	}
+}

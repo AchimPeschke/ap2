@@ -1,0 +1,186 @@
+﻿{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Main",
+			"items": [
+				{
+					"link": 1226
+				},
+				{
+					"link": 3115
+				},
+				{
+					"link": 2559
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Inactiv",
+			"items": [
+				{
+					"link": 15090
+				},
+				{
+					"link": 3115
+				},
+				{
+					"link": 3116
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 1226,
+			"title": ":79,1",
+			"items": [
+				{
+					"title": "Customers",
+					"method": "DisplayCustomers",
+					"startNewProcess": true
+				},
+				{
+					"title": "Invoices",
+					"method": "DisplayInvoices",
+					"startNewProcess": true
+				},
+				{
+					"title": "Products",
+					"method": "DisplayProducts",
+					"startNewProcess": true
+				},
+				{
+					"title": "Display products the new way",
+					"method": "AP_Show_Products",
+					"startNewProcess": true
+				},
+				{
+					"title": ":79,2",
+					"action": "quit"
+				}
+			]
+		},
+		{
+			"link": 3115,
+			"title": ":79,5",
+			"items": [
+				{
+					"title": ":131,18",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"executeWithoutValidating": true
+				},
+				{
+					"title": ":131,20",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":131,21",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"executeWithoutValidating": true,
+					"action": "copy"
+				},
+				{
+					"title": ":131,22",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":131,23",
+					"action": "clear"
+				},
+				{
+					"title": ":131,24",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true,
+					"executeWithoutValidating": true
+				},
+				{
+					"title": ":131,25",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 2559,
+			"title": ":79,6",
+			"items": [
+				{
+					"title": ":131,27",
+					"shortcutAccel": true,
+					"shortcutKey": "S",
+					"action": "design"
+				},
+				{
+					"title": ":131,28",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "U",
+					"action": "userMode"
+				},
+				{
+					"title": ":131,29",
+					"state": "checked",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "*",
+					"action": "application"
+				}
+			]
+		},
+		{
+			"link": 15090,
+			"title": ":79,1",
+			"items": [
+				{
+					"title": "Customers",
+					"enabled": false
+				},
+				{
+					"title": "Invoices",
+					"enabled": false
+				},
+				{
+					"title": "Products",
+					"enabled": false
+				}
+			]
+		},
+		{
+			"link": 3116,
+			"title": ":79,6",
+			"items": [
+				{
+					"title": ":131,27",
+					"enabled": false
+				},
+				{
+					"title": ":131,28",
+					"enabled": false
+				},
+				{
+					"title": ":131,29",
+					"enabled": false
+				}
+			]
+		}
+	]
+}

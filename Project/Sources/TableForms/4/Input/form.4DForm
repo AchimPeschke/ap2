@@ -1,0 +1,323 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 800,
+	"windowMinHeight": 520,
+	"width": 800,
+	"height": 520,
+	"menuBar": "Main",
+	"markerBody": 151,
+	"markerBreak": 151,
+	"markerFooter": 161,
+	"events": [
+		"onLoad",
+		"onHeader"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 785,
+					"height": 505,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#DDDDDD",
+					"stroke": "#FFFFFF"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 71,
+					"left": 0,
+					"width": 785,
+					"sizingX": "grow",
+					"strokeWidth": 2
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 67,
+					"left": 2,
+					"width": 783,
+					"stroke": "#DDDDDD",
+					"strokeWidth": 2
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 12,
+					"left": 13,
+					"width": 253,
+					"height": 55,
+					"stroke": "#000000",
+					"fontSize": 48,
+					"text": "Products"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte1": {
+					"type": "text",
+					"top": 99,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Reference................."
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 186,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Price........................."
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 230,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Stock......................."
+				},
+				"Champ1": {
+					"type": "input",
+					"top": 122,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]ID_Product:1",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Champ2": {
+					"type": "input",
+					"top": 209,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]Price:3",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Champ3": {
+					"type": "input",
+					"top": 253,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]Stock:4",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": "### ##0",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 274,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Stock alert................"
+				},
+				"Champ4": {
+					"type": "input",
+					"top": 297,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]MinimumQty:5",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"textFormat": "### ##0",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 142,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Name......................"
+				},
+				"Champ5": {
+					"type": "input",
+					"top": 165,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]Name:2",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 627,
+					"left": 12,
+					"width": 725,
+					"height": 42,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"fill": "#EEEEEE",
+					"stroke": "#EEEEEE"
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 433,
+					"left": 6,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bValidate",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"text": "OK",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 433,
+					"left": 95,
+					"width": 70,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bCancel",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"text": "Cancel",
+					"textAlign": "center",
+					"fontFamily": ".Lucida Grande UI",
+					"fontSize": 12,
+					"stroke": "#000000",
+					"events": [
+						"onClick"
+					]
+				},
+				"Field": {
+					"type": "input",
+					"top": 117,
+					"left": 176,
+					"width": 167,
+					"height": 154,
+					"dataSource": "[Products:4]Photo:6",
+					"pictureFormat": "scaled",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 317,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "On stock................"
+				},
+				"Champ6": {
+					"type": "checkbox",
+					"top": 340,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]OnStock:7",
+					"text": "OnStock",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 360,
+					"left": 5,
+					"width": 157,
+					"height": 16,
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Size................"
+				},
+				"Champ7": {
+					"type": "input",
+					"top": 383,
+					"left": 5,
+					"width": 160,
+					"height": 16,
+					"dataSource": "[Products:4]Size:8",
+					"stroke": "#9C5200",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	]
+}

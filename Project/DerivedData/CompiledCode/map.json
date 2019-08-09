@@ -1,0 +1,233 @@
+﻿{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/TotalLine.4dm"
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/Initialisation.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/Return_address.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Methods/__HTP_HOST_Do_Action.4dm"
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Methods/WAK_Get_Invoices.4dm"
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Methods/Build_Cell_Content.4dm"
+		},
+		{
+			"id": 2147483641,
+			"path": "Sources/Methods/AP_Show_Products.4dm"
+		},
+		{
+			"id": 2147483640,
+			"path": "Sources/Methods/TotalInvoice.4dm"
+		},
+		{
+			"id": 2147483639,
+			"path": "Sources/Methods/Build_Button.4dm"
+		},
+		{
+			"id": 2147483638,
+			"path": "Sources/Methods/DisplayCustomers.4dm"
+		},
+		{
+			"id": 2147483637,
+			"path": "Sources/Methods/ProcessImagePaths.4dm"
+		},
+		{
+			"id": 2147483636,
+			"path": "Sources/Methods/Start_Slides.4dm"
+		},
+		{
+			"id": 2147483635,
+			"path": "Sources/Methods/Compiler.4dm"
+		},
+		{
+			"id": 2147483634,
+			"path": "Sources/Methods/Update_Key.4dm"
+		},
+		{
+			"id": 2147483633,
+			"path": "Sources/Methods/DisplayInvoices.4dm"
+		},
+		{
+			"id": 2147483632,
+			"path": "Sources/Methods/DisplayProducts.4dm"
+		},
+		{
+			"id": 2147483631,
+			"path": "Sources/DatabaseMethods/onStartup.4dm"
+		},
+		{
+			"id": 2147483630,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bPrint1.4dm"
+		},
+		{
+			"id": 2147483629,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bAdd.4dm"
+		},
+		{
+			"id": 2147483628,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bShowSubset.4dm"
+		},
+		{
+			"id": 2147483627,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bShowAll.4dm"
+		},
+		{
+			"id": 2147483626,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bOrderBy.4dm"
+		},
+		{
+			"id": 2147483625,
+			"path": "Sources/TableForms/2/Output/ObjectMethods/bQuery.4dm"
+		},
+		{
+			"id": 2147483624,
+			"path": "Sources/Forms/Products_Display/ObjectMethods/List Box.4dm"
+		},
+		{
+			"id": 2147483623,
+			"path": "Sources/Forms/Products_Display/ObjectMethods/LB.4dm"
+		},
+		{
+			"id": 2147483622,
+			"path": "Sources/Forms/Products_Display/ObjectMethods/Spalte5.4dm"
+		},
+		{
+			"id": 2147483621,
+			"path": "Sources/Forms/Write_Pro/method.4dm"
+		},
+		{
+			"id": 2147483620,
+			"path": "Sources/Forms/Write_Pro/ObjectMethods/Button14.4dm"
+		},
+		{
+			"id": 2147483619,
+			"path": "Sources/Forms/Write_Pro/ObjectMethods/Button2.4dm"
+		},
+		{
+			"id": 2147483618,
+			"path": "Sources/Forms/Write_Pro/ObjectMethods/Button11.4dm"
+		},
+		{
+			"id": 2147483617,
+			"path": "Sources/Forms/Write_Pro/ObjectMethods/Button9.4dm"
+		},
+		{
+			"id": 2147483616,
+			"path": "Sources/TableForms/1/Input/ObjectMethods/bDelete.4dm"
+		},
+		{
+			"id": 2147483615,
+			"path": "Sources/TableForms/1/Input/ObjectMethods/Variable1.4dm"
+		},
+		{
+			"id": 2147483614,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bQuery.4dm"
+		},
+		{
+			"id": 2147483613,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bOrderBy.4dm"
+		},
+		{
+			"id": 2147483612,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bAdd.4dm"
+		},
+		{
+			"id": 2147483611,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bShowAll.4dm"
+		},
+		{
+			"id": 2147483610,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bPrint1.4dm"
+		},
+		{
+			"id": 2147483609,
+			"path": "Sources/TableForms/1/Output/ObjectMethods/bShowSubset.4dm"
+		},
+		{
+			"id": 2147483608,
+			"path": "Sources/TableForms/1/Print/ObjectMethods/Variable1.4dm"
+		},
+		{
+			"id": 2147483607,
+			"path": "Sources/TableForms/2/Input/method.4dm"
+		},
+		{
+			"id": 2147483606,
+			"path": "Sources/TableForms/2/Input/ObjectMethods/Variable1.4dm"
+		},
+		{
+			"id": 2147483605,
+			"path": "Sources/TableForms/2/Input/ObjectMethods/bPrint.4dm"
+		},
+		{
+			"id": 2147483604,
+			"path": "Sources/TableForms/2/Input/ObjectMethods/bPrint1.4dm"
+		},
+		{
+			"id": 2147483603,
+			"path": "Sources/TableForms/2/PrintList/ObjectMethods/Variable1.4dm"
+		},
+		{
+			"id": 2147483602,
+			"path": "Sources/TableForms/3/Input_Output/method.4dm"
+		},
+		{
+			"id": 2147483601,
+			"path": "Sources/TableForms/3/Print/method.4dm"
+		},
+		{
+			"id": 2147483600,
+			"path": "Sources/TableForms/4/Input/method.4dm"
+		},
+		{
+			"id": 2147483599,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bQuery.4dm"
+		},
+		{
+			"id": 2147483598,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bOrderBy.4dm"
+		},
+		{
+			"id": 2147483597,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bShowSubset.4dm"
+		},
+		{
+			"id": 2147483596,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bAdd.4dm"
+		},
+		{
+			"id": 2147483595,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bShowAll.4dm"
+		},
+		{
+			"id": 2147483594,
+			"path": "Sources/TableForms/4/Output/ObjectMethods/bPrint1.4dm"
+		},
+		{
+			"id": 2147483593,
+			"path": "Sources/TableForms/4/Print/ObjectMethods/Variable1.4dm"
+		},
+		{
+			"id": 2147483592,
+			"path": "Sources/TableForms/5/Input/ObjectMethods/Button.4dm"
+		},
+		{
+			"id": 2147483591,
+			"path": "Sources/TableForms/5/Input/ObjectMethods/vRecNum.4dm"
+		}
+	],
+	"arch64": true
+}

@@ -1,0 +1,362 @@
+﻿{
+	"destination": "listPrinter",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 90,
+	"markerBody": 109,
+	"markerBreak": 116,
+	"markerFooter": 123,
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 65,
+					"left": 1,
+					"width": 555,
+					"height": 49,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 27,
+					"left": 43,
+					"width": 393,
+					"height": 29,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 24,
+					"text": "Invoices"
+				},
+				"Ligne7": {
+					"type": "line",
+					"top": 88,
+					"left": 4,
+					"width": 551,
+					"sizingX": "grow"
+				},
+				"Séparateur1_Ligne2": {
+					"type": "line",
+					"top": 88,
+					"left": 82,
+					"height": 22,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur2_Ligne2": {
+					"type": "line",
+					"top": 88,
+					"left": 290,
+					"height": 22,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur3_Ligne2": {
+					"type": "line",
+					"top": 88,
+					"left": 360,
+					"height": 22,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur4_Ligne2": {
+					"type": "line",
+					"top": 88,
+					"left": 458,
+					"height": 22,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne13": {
+					"type": "line",
+					"top": 108,
+					"left": -26,
+					"width": 582,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Texte": {
+					"type": "text",
+					"top": 68,
+					"left": 5,
+					"width": 77,
+					"height": 19,
+					"sizingX": "grow",
+					"fill": "#777777",
+					"stroke": "#FFFFFF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Ref."
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 68,
+					"left": 84,
+					"width": 205,
+					"height": 19,
+					"sizingX": "grow",
+					"fill": "#777777",
+					"stroke": "#FFFFFF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Company"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 68,
+					"left": 291,
+					"width": 68,
+					"height": 19,
+					"sizingX": "grow",
+					"fill": "#777777",
+					"stroke": "#FFFFFF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Date"
+				},
+				"S4_Texte": {
+					"type": "text",
+					"top": 68,
+					"left": 361,
+					"width": 96,
+					"height": 19,
+					"sizingX": "grow",
+					"fill": "#777777",
+					"stroke": "#FFFFFF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "To pay"
+				},
+				"S5_Texte": {
+					"type": "text",
+					"top": 68,
+					"left": 459,
+					"width": 94,
+					"height": 19,
+					"sizingX": "grow",
+					"fill": "#777777",
+					"stroke": "#FFFFFF",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"text": "Total VAT"
+				},
+				"S1_Champ": {
+					"type": "input",
+					"top": 91,
+					"left": 7,
+					"width": 74,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Invoices:2]ID_Invoice:1",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Champ": {
+					"type": "input",
+					"top": 91,
+					"left": 86,
+					"width": 202,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Customers:1]Company:2",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 91,
+					"left": 293,
+					"width": 65,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Invoices:2]Invoice date:3",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S4_Champ": {
+					"type": "input",
+					"top": 91,
+					"left": 361,
+					"width": 95,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Invoices:2]price:4",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S5_Champ": {
+					"type": "input",
+					"top": 91,
+					"left": 459,
+					"width": 93,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "[Invoices:2]VAT total:5",
+					"stroke": "#000000",
+					"fontFamily": "Verdana",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"textFormat": "### ### ##0,00 $",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 46,
+					"left": 504,
+					"width": 33,
+					"height": 12,
+					"fill": "#FFFFFF",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"text": "Page :"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 61,
+					"left": 42,
+					"width": 515,
+					"strokeWidth": 2
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 46,
+					"left": 533,
+					"width": 17,
+					"height": 12,
+					"dataSource": "vNum",
+					"stroke": "#000000",
+					"fontFamily": "Times",
+					"fontSize": 10,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 69,
+					"left": 82,
+					"height": 18,
+					"stroke": "#FFFFFF"
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 69,
+					"left": 290,
+					"height": 18,
+					"stroke": "#FFFFFF"
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 69,
+					"left": 360,
+					"height": 18,
+					"stroke": "#FFFFFF"
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 69,
+					"left": 458,
+					"height": 18,
+					"stroke": "#FFFFFF"
+				}
+			}
+		}
+	]
+}
