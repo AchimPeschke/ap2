@@ -108,13 +108,13 @@
 		"stamp": "2019-08-08T12:49:05.369Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"startSelection": 0,
-		"endSelection": 14,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-08-08T12:49:05.371Z"
+		"stamp": "2019-08-09T10:19:40.965Z"
 	},
 	"Sources/Forms/Write_Pro/method.4dm": {
 		"startSelection": 43,
